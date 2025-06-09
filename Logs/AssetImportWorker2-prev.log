@@ -1,0 +1,448 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.37f1 (3b6005ad5ad6) revision 3891205'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 7598 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.37f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/Unity_Projects_2/Rocket_Raider
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+64308
+Successfully changed project path to: D:/Unity_Projects_2/Rocket_Raider
+D:/Unity_Projects_2/Rocket_Raider
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [3256] Host "[IP] 192.168.1.93 [Port] 0 [Flags] 2 [Guid] 2243804529 [EditorId] 2243804529 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-NPB68NG0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [3256] Host "[IP] 192.168.1.93 [Port] 0 [Flags] 2 [Guid] 2243804529 [EditorId] 2243804529 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-NPB68NG0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
+Refreshing native plugins compatible for Editor in 104.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.37f1 (3b6005ad5ad6)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity_Projects_2/Rocket_Raider/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3964 MB
+    Driver:   32.0.15.6607
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56196
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.014952 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 804 ms
+Refreshing native plugins compatible for Editor in 92.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.459 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2459ms)
+		BeginReloadAssembly (280ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (1997ms)
+			LoadAssemblies (278ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (159ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (142ms)
+			SetupLoadedEditorAssemblies (1575ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (1296ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (93ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (134ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.010753 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  1.827 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1828ms)
+		BeginReloadAssembly (284ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1423ms)
+			LoadAssemblies (234ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (333ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (71ms)
+			SetupLoadedEditorAssemblies (814ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (25ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (80ms)
+				ProcessInitializeOnLoadAttributes (672ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3079 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (46.4 KB). Loaded Objects now: 3542.
+Memory consumption went from 113.4 MB to 113.3 MB.
+Total: 3.711100 ms (FindLiveObjects: 0.306800 ms CreateObjectMapping: 0.098600 ms MarkObjects: 3.201700 ms  DeleteObjects: 0.102500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 7611.926792 seconds.
+  path: Assets/GameDevTV Assets/Materials and Textures/Castle-Palette-Material.mat
+  artifactKey: Guid(b20396b4a8fc9ea4598cbb3f8d4ff60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/GameDevTV Assets/Materials and Textures/Castle-Palette-Material.mat using Guid(b20396b4a8fc9ea4598cbb3f8d4ff60d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd62e62746c8a66d24cc9634c8d1a8995') in 0.140664 seconds 
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 10.351003 seconds.
+  path: Assets/GameDevTV Assets/Models/Dropship_01_Tank_Red.fbx
+  artifactKey: Guid(a41951dc5dfb26c4d9f2e74b27bb583c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/GameDevTV Assets/Models/Dropship_01_Tank_Red.fbx using Guid(a41951dc5dfb26c4d9f2e74b27bb583c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d12e7ad7cacca10ea72c90ecd3a823f') in 0.283187 seconds 
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 30.442645 seconds.
+  path: Assets/GameDevTV Assets/Models/Crate_02_2_Glow.fbx
+  artifactKey: Guid(e19c54858e9d4cf4d9f790e8385103e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/GameDevTV Assets/Models/Crate_02_2_Glow.fbx using Guid(e19c54858e9d4cf4d9f790e8385103e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac9fb7a23684a46c0cf21069ab0c70b6') in 0.090439 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 11.277638 seconds.
+  path: Assets/GameDevTV Assets/Materials and Textures/castle-colour-palette.png
+  artifactKey: Guid(537e3b8237afd4c4082486ad963e88a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/GameDevTV Assets/Materials and Textures/castle-colour-palette.png using Guid(537e3b8237afd4c4082486ad963e88a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fdca2c85d936e5a1d3d57a14c29156a') in 0.069490 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/GameDevTV Assets/Materials and Textures/Colour_Palette2_SciFi.jpg
+  artifactKey: Guid(e2ac5b2ea0b74484485fd2c648f439d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/GameDevTV Assets/Materials and Textures/Colour_Palette2_SciFi.jpg using Guid(e2ac5b2ea0b74484485fd2c648f439d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf45d60c0db7c0b0c80bc3d2a1e6a2fd') in 0.010136 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 20.742216 seconds.
+  path: Assets/GameDevTV Assets/Models/Dropship_02_Body_Yellow.fbx
+  artifactKey: Guid(eec6e35c3e07f9b47b15e9841f7b8047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/GameDevTV Assets/Models/Dropship_02_Body_Yellow.fbx using Guid(eec6e35c3e07f9b47b15e9841f7b8047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6a89f473f730747e857e742bffb454f') in 0.019621 seconds 
+Number of asset objects unloaded after import = 32
+========================================================================
+Received Import Request.
+  Time since last request: 7.662464 seconds.
+  path: Assets/GameDevTV Assets/Models/Dropship_03_Handle.fbx
+  artifactKey: Guid(302ae5206abe48c49bd78d257f14b145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/GameDevTV Assets/Models/Dropship_03_Handle.fbx using Guid(302ae5206abe48c49bd78d257f14b145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73523655ddd77208d85c02ce42d8bee4') in 0.012245 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 7.427746 seconds.
+  path: Assets/GameDevTV Assets/Models/Dropship_03_Piping_Small_Red.fbx
+  artifactKey: Guid(3176bd0e91a5df94e8add8e4ed1557ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/GameDevTV Assets/Models/Dropship_03_Piping_Small_Red.fbx using Guid(3176bd0e91a5df94e8add8e4ed1557ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b49093c3129a0410d152fb8f27baa8eb') in 0.013653 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 10.226505 seconds.
+  path: Assets/GameDevTV Assets/Models/Dropship_04_Artillery_Mount.fbx
+  artifactKey: Guid(5c1654fbf542ad64284c1a15b17e3fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/GameDevTV Assets/Models/Dropship_04_Artillery_Mount.fbx using Guid(5c1654fbf542ad64284c1a15b17e3fa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '776a8f37da638adc3dd18fc63e72449a') in 0.012295 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 28.626315 seconds.
+  path: Assets/GameDevTV Assets/Models/Dropship_05_Antenna_Yellow.fbx
+  artifactKey: Guid(893dd7bb544a72441b43e6873d081b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/GameDevTV Assets/Models/Dropship_05_Antenna_Yellow.fbx using Guid(893dd7bb544a72441b43e6873d081b0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af4ae2d415f4d43a96729adaba4e7c09') in 0.013149 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 5.150792 seconds.
+  path: Assets/GameDevTV Assets/Models/Dropship_05_Fuse_Red.fbx
+  artifactKey: Guid(151d34a463cbc19459a944508026bae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/GameDevTV Assets/Models/Dropship_05_Fuse_Red.fbx using Guid(151d34a463cbc19459a944508026bae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98bc6db907761989b8ce13e41d156f82') in 0.014037 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 5.963147 seconds.
+  path: Assets/GameDevTV Assets/Models/Fighter_03_Engine_Yellow.fbx
+  artifactKey: Guid(dd065d2ecf244ac40a2ebcda998652c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/GameDevTV Assets/Models/Fighter_03_Engine_Yellow.fbx using Guid(dd065d2ecf244ac40a2ebcda998652c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1306364ecb0b5b5065f6eb664224d5f') in 0.015996 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 14.820882 seconds.
+  path: Assets/GameDevTV Assets/Models/Fighter_04_Detail_2_Red.fbx
+  artifactKey: Guid(a7ea52d7fead8ad42b0a8091bcde9767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/GameDevTV Assets/Models/Fighter_04_Detail_2_Red.fbx using Guid(a7ea52d7fead8ad42b0a8091bcde9767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71537f2aa454ccdccdd5a3f481dc5aec') in 0.012809 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 24.748590 seconds.
+  path: Assets/GameDevTV Assets/Models/Fighter_04_Hatch_Yellow.fbx
+  artifactKey: Guid(4a0949f8e2f0d0b4ca26db1d72924cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/GameDevTV Assets/Models/Fighter_04_Hatch_Yellow.fbx using Guid(4a0949f8e2f0d0b4ca26db1d72924cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a64c98f6d9300ee6b5adb58860a2d51d') in 0.013952 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 81.356749 seconds.
+  path: Assets/GameDevTV Assets/Models/Fighter_08_Pipe_Red.fbx
+  artifactKey: Guid(f4fe8856448d07947bcd5926b66f3890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/GameDevTV Assets/Models/Fighter_08_Pipe_Red.fbx using Guid(f4fe8856448d07947bcd5926b66f3890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e82e94f471f4700ea22dc4c0d1853199') in 0.018326 seconds 
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time since last request: 6.772049 seconds.
+  path: Assets/GameDevTV Assets/Models/Fighter_10_Frontal_Body_Yellow.fbx
+  artifactKey: Guid(d3a527b05ad621a47849900f5849db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/GameDevTV Assets/Models/Fighter_10_Frontal_Body_Yellow.fbx using Guid(d3a527b05ad621a47849900f5849db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83993146872ef5124a95989562a3e124') in 0.017325 seconds 
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 5.786121 seconds.
+  path: Assets/GameDevTV Assets/Models/Mothership_01_Detail_1_Blue.fbx
+  artifactKey: Guid(d39127fa5721b8448a760ac6baf85f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/GameDevTV Assets/Models/Mothership_01_Detail_1_Blue.fbx using Guid(d39127fa5721b8448a760ac6baf85f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c7033b7fbf42cacd11e04693f2ce12a') in 0.013847 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 11.244797 seconds.
+  path: Assets/GameDevTV Assets/Models/Mothership_01_Detail_1_Blue.fbx
+  artifactKey: Guid(d39127fa5721b8448a760ac6baf85f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/GameDevTV Assets/Models/Mothership_01_Detail_1_Blue.fbx using Guid(d39127fa5721b8448a760ac6baf85f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6904ac70b88e8aa657217e42d315a5a0') in 0.013621 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 6.001310 seconds.
+  path: Assets/GameDevTV Assets/Models/Mothership_01_Detail_1_Red.fbx
+  artifactKey: Guid(9fb748e3e4a44734fb888a35dac681ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/GameDevTV Assets/Models/Mothership_01_Detail_1_Red.fbx using Guid(9fb748e3e4a44734fb888a35dac681ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cda1bf938d17ffa13c7f339eeead6ad') in 0.013334 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 5.545988 seconds.
+  path: Assets/GameDevTV Assets/Models/Mothership_02_Radar_Blue.fbx
+  artifactKey: Guid(52d989fc3ffe226438abaa75b261b465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/GameDevTV Assets/Models/Mothership_02_Radar_Blue.fbx using Guid(52d989fc3ffe226438abaa75b261b465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b20509114df1d2c6a78628173e766113') in 0.014096 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 7.015405 seconds.
+  path: Assets/GameDevTV Assets/Models/Mothership_02_Tip_Red.fbx
+  artifactKey: Guid(2450775d12196084085b9a4fd9b18191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/GameDevTV Assets/Models/Mothership_02_Tip_Red.fbx using Guid(2450775d12196084085b9a4fd9b18191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5af40dc6382291074ff2e022767d9a6f') in 0.012617 seconds 
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time since last request: 22.367177 seconds.
+  path: Assets/GameDevTV Assets/Prefabs/Rick's Weird Space Pod.prefab
+  artifactKey: Guid(cf91000b018c5e64d87fba48f5ab81b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/GameDevTV Assets/Prefabs/Rick's Weird Space Pod.prefab using Guid(cf91000b018c5e64d87fba48f5ab81b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '783fc01d876bce7ed90371e234138e52') in 0.025468 seconds 
+Number of asset objects unloaded after import = 123
+========================================================================
+Received Import Request.
+  Time since last request: 80.945222 seconds.
+  path: Assets/GameDevTV Assets/Materials and Textures
+  artifactKey: Guid(d5acd3f4ae658f34490a421f52e7d0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/GameDevTV Assets/Materials and Textures using Guid(d5acd3f4ae658f34490a421f52e7d0f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '770e385ebd2b11009278cd6e69f826d9') in 0.008155 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 303.691821 seconds.
+  path: Assets/GameDevTV Assets/Models/Fighter_10_Frontal_Body_Yellow.fbx
+  artifactKey: Guid(d3a527b05ad621a47849900f5849db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/GameDevTV Assets/Models/Fighter_10_Frontal_Body_Yellow.fbx using Guid(d3a527b05ad621a47849900f5849db58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab63a35e07d86c8d2c467b5a0f9e0800') in 0.023302 seconds 
+Number of asset objects unloaded after import = 40
+========================================================================
+Received Import Request.
+  Time since last request: 1445.594655 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79842766b460edbeab6a34051e857a80') in 0.001347 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 13.284783 seconds.
+  path: Assets/Scripts
+  artifactKey: Guid(4633316ea93b49244bb7fcd23de4097d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scripts using Guid(4633316ea93b49244bb7fcd23de4097d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0544f91de76f470902b473514d3fdc84') in 0.001638 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 26.363178 seconds.
+  path: Assets/Scripts/Locomotion.cs
+  artifactKey: Guid(1df634d35d58dda4eb2fbe02471c7839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scripts/Locomotion.cs using Guid(1df634d35d58dda4eb2fbe02471c7839) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4257ab9f393964c82ab3ce403cb2d97e') in 0.016400 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004286 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  2.092 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2096ms)
+		BeginReloadAssembly (646ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (30ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (291ms)
+		EndReloadAssembly (1337ms)
+			LoadAssemblies (164ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (335ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (787ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (29ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (69ms)
+				ProcessInitializeOnLoadAttributes (660ms)
+				ProcessInitializeOnLoadMethodAttributes (20ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3072 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (21.9 KB). Loaded Objects now: 3591.
+Memory consumption went from 113.5 MB to 113.5 MB.
+Total: 7.277600 ms (FindLiveObjects: 0.309000 ms CreateObjectMapping: 0.090200 ms MarkObjects: 6.600800 ms  DeleteObjects: 0.276400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
