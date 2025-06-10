@@ -15,7 +15,7 @@ D:/Unity_Projects_2/Rocket_Raider
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-64308
+61789
 Successfully changed project path to: D:/Unity_Projects_2/Rocket_Raider
 D:/Unity_Projects_2/Rocket_Raider
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ D:/Unity_Projects_2/Rocket_Raider
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [19592] Host "[IP] 192.168.1.93 [Port] 0 [Flags] 2 [Guid] 3913758947 [EditorId] 3913758947 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-NPB68NG0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [11872] Host "[IP] 192.168.1.93 [Port] 0 [Flags] 2 [Guid] 2075797133 [EditorId] 2075797133 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-NPB68NG0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [19592] Host "[IP] 192.168.1.93 [Port] 0 [Flags] 2 [Guid] 3913758947 [EditorId] 3913758947 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-NPB68NG0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [11872] Host "[IP] 192.168.1.93 [Port] 0 [Flags] 2 [Guid] 2075797133 [EditorId] 2075797133 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-NPB68NG0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 90.77 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 112.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.37f1 (3b6005ad5ad6)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Resources/UnitySubsystems
@@ -68,94 +68,94 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56364
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56180
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006061 seconds.
+Registered in 0.018958 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 483 ms
-Refreshing native plugins compatible for Editor in 81.30 ms, found 3 plugins.
+Android Extension - Scanning For ADB Devices 551 ms
+Refreshing native plugins compatible for Editor in 112.67 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.606 seconds
+- Completed reload, in  1.656 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1606ms)
-		BeginReloadAssembly (224ms)
+	ReloadAssembly (1657ms)
+		BeginReloadAssembly (136ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1246ms)
-			LoadAssemblies (221ms)
+		EndReloadAssembly (1351ms)
+			LoadAssemblies (135ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (223ms)
+			SetupTypeCache (211ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (929ms)
+			RebuildScriptCaches (38ms)
+			SetupLoadedEditorAssemblies (1039ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (646ms)
+				InitializePlatformSupportModulesInManaged (703ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (81ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (130ms)
-				ProcessInitializeOnLoadMethodAttributes (71ms)
+				RefreshPlugins (113ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (155ms)
+				ProcessInitializeOnLoadMethodAttributes (66ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004254 seconds.
+Registered in 0.005265 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 102.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Completed reload, in  1.993 seconds
+- Completed reload, in  2.427 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1994ms)
-		BeginReloadAssembly (204ms)
+	ReloadAssembly (2428ms)
+		BeginReloadAssembly (245ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (13ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (1621ms)
-			LoadAssemblies (237ms)
+			CreateAndSetChildDomain (28ms)
+		EndReloadAssembly (1997ms)
+			LoadAssemblies (255ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (367ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (91ms)
-			SetupLoadedEditorAssemblies (891ms)
+			SetupTypeCache (479ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (78ms)
+			SetupLoadedEditorAssemblies (1176ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (26ms)
+				InitializePlatformSupportModulesInManaged (32ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (80ms)
-				ProcessInitializeOnLoadAttributes (730ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
-				AfterProcessingInitializeOnLoad (11ms)
+				RefreshPlugins (103ms)
+				BeforeProcessingInitializeOnLoad (115ms)
+				ProcessInitializeOnLoadAttributes (878ms)
+				ProcessInitializeOnLoadMethodAttributes (35ms)
+				AfterProcessingInitializeOnLoad (13ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
-Refreshing native plugins compatible for Editor in 1.41 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 0.77 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3079 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 23 unused Assets / (46.4 KB). Loaded Objects now: 3542.
-Memory consumption went from 113.4 MB to 113.3 MB.
-Total: 7.130500 ms (FindLiveObjects: 1.255400 ms CreateObjectMapping: 0.638000 ms MarkObjects: 5.116500 ms  DeleteObjects: 0.118200 ms)
+Unloading 3459 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (46.4 KB). Loaded Objects now: 3925.
+Memory consumption went from 128.3 MB to 128.3 MB.
+Total: 4.676200 ms (FindLiveObjects: 0.374700 ms CreateObjectMapping: 0.128300 ms MarkObjects: 4.062500 ms  DeleteObjects: 0.109300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -170,167 +170,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 7561.841847 seconds.
-  path: Assets/GameDevTV Assets/Models/Light_Glow_13.fbx
-  artifactKey: Guid(5235f3354d55b3047977c1ad1328751a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/GameDevTV Assets/Models/Light_Glow_13.fbx using Guid(5235f3354d55b3047977c1ad1328751a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a45b86390e7b63b278c1b2fef8adff1') in 0.778943 seconds 
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000100 seconds.
-  path: Assets/GameDevTV Assets/Models/Rock_Cliff_Env_01.fbx
-  artifactKey: Guid(4c4582e1ea08b314aa3abafba0c1fbcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/GameDevTV Assets/Models/Rock_Cliff_Env_01.fbx using Guid(4c4582e1ea08b314aa3abafba0c1fbcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb1003c7ac5b99e07572f4e891fc294') in 0.050078 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000188 seconds.
-  path: Assets/GameDevTV Assets/Models/Mothership_01_Detail_1_Red.fbx
-  artifactKey: Guid(9fb748e3e4a44734fb888a35dac681ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/GameDevTV Assets/Models/Mothership_01_Detail_1_Red.fbx using Guid(9fb748e3e4a44734fb888a35dac681ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e795801203b1f932aea84aef5134156') in 0.039178 seconds 
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000055 seconds.
-  path: Assets/GameDevTV Assets/Models/Rock_Env.fbx
-  artifactKey: Guid(f9cb973757deaba4f95f2527e2e3a34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/GameDevTV Assets/Models/Rock_Env.fbx using Guid(f9cb973757deaba4f95f2527e2e3a34d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee8cd93930f36487edc4f07f94948c8f') in 0.039519 seconds 
-Number of asset objects unloaded after import = 7
-========================================================================
-Received Import Request.
-  Time since last request: 0.000096 seconds.
-  path: Assets/GameDevTV Assets/Models/Fighter_10_Yellow.fbx
-  artifactKey: Guid(2506c32f90ed869409734d062d07c67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/GameDevTV Assets/Models/Fighter_10_Yellow.fbx using Guid(2506c32f90ed869409734d062d07c67e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0adbcc2f51cbdfa66fa7b94207adadd') in 0.106707 seconds 
-Number of asset objects unloaded after import = 11
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/GameDevTV Assets/Models/Fighter_04_Hatch_Yellow.fbx
-  artifactKey: Guid(4a0949f8e2f0d0b4ca26db1d72924cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/GameDevTV Assets/Models/Fighter_04_Hatch_Yellow.fbx using Guid(4a0949f8e2f0d0b4ca26db1d72924cbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1ad0522f324b83e396ffc0edb1fa8aa') in 0.091820 seconds 
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/GameDevTV Assets/Models/Rover_01_Neutral.fbx
-  artifactKey: Guid(047501233d2bcb64fbc12eb56cf2d3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/GameDevTV Assets/Models/Rover_01_Neutral.fbx using Guid(047501233d2bcb64fbc12eb56cf2d3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b55ceb9dc899ee0bb2c8a3ce1a30f82') in 0.121772 seconds 
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000081 seconds.
-  path: Assets/GameDevTV Assets/Models/Mothership_01_Detail_1_Blue.fbx
-  artifactKey: Guid(d39127fa5721b8448a760ac6baf85f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/GameDevTV Assets/Models/Mothership_01_Detail_1_Blue.fbx using Guid(d39127fa5721b8448a760ac6baf85f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '674c7ecf3b6a9106fc07da8c8f4bea9c') in 0.034230 seconds 
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/GameDevTV Assets/Models/Dropship_01_Left_Compartment_Red.fbx
-  artifactKey: Guid(6f86c34ae85b73944b67468ca1680b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/GameDevTV Assets/Models/Dropship_01_Left_Compartment_Red.fbx using Guid(6f86c34ae85b73944b67468ca1680b59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e971cbfcf8b4e577e71e3e355c11d8a6') in 0.026887 seconds 
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/GameDevTV Assets/Prefabs
-  artifactKey: Guid(360bc2e9d9f6a134bb26444e828f5eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/GameDevTV Assets/Prefabs using Guid(360bc2e9d9f6a134bb26444e828f5eff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c313b9bcb86bb4afa0bb04ca9ea683c') in 0.003520 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/GameDevTV Assets/Models/Dropship_03_Handle.fbx
-  artifactKey: Guid(302ae5206abe48c49bd78d257f14b145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/GameDevTV Assets/Models/Dropship_03_Handle.fbx using Guid(302ae5206abe48c49bd78d257f14b145) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d4eba86d5ee7df72ab99737e87a7236') in 0.032368 seconds 
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/GameDevTV Assets/Models/Dropship_05_Fuse_Red.fbx
-  artifactKey: Guid(151d34a463cbc19459a944508026bae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/GameDevTV Assets/Models/Dropship_05_Fuse_Red.fbx using Guid(151d34a463cbc19459a944508026bae6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c580c659bf95107af73f801f088ee3') in 0.038787 seconds 
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000083 seconds.
-  path: Assets/GameDevTV Assets/Models/Fighter_08_Pipe_Red.fbx
-  artifactKey: Guid(f4fe8856448d07947bcd5926b66f3890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/GameDevTV Assets/Models/Fighter_08_Pipe_Red.fbx using Guid(f4fe8856448d07947bcd5926b66f3890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5872c28d891edb07a2a13f98530be385') in 0.042131 seconds 
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000066 seconds.
-  path: Assets/GameDevTV Assets/Models/Dropship_01_Piping_02_Red.fbx
-  artifactKey: Guid(7977cdb90f47c8b4d88efbc0df5169b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/GameDevTV Assets/Models/Dropship_01_Piping_02_Red.fbx using Guid(7977cdb90f47c8b4d88efbc0df5169b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9f03340ba8aa6a37b9e6cf8d0aeff68') in 0.036042 seconds 
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 0.000073 seconds.
-  path: Assets/GameDevTV Assets/Models
-  artifactKey: Guid(e5d34ba84c326a848a03143612cad59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/GameDevTV Assets/Models using Guid(e5d34ba84c326a848a03143612cad59b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90a54898aa2a784e4670a6313aa942a8') in 0.008013 seconds 
-Number of asset objects unloaded after import = 0
-========================================================================
-Received Import Request.
-  Time since last request: 0.000049 seconds.
-  path: Assets/GameDevTV Assets/Models/Dropship_03_Piping_Small_Red.fbx
-  artifactKey: Guid(3176bd0e91a5df94e8add8e4ed1557ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/GameDevTV Assets/Models/Dropship_03_Piping_Small_Red.fbx using Guid(3176bd0e91a5df94e8add8e4ed1557ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afacdd6a32ff08c6549630f097acc41a') in 0.022420 seconds 
-Number of asset objects unloaded after import = 9
-========================================================================
-Received Import Request.
-  Time since last request: 0.000128 seconds.
-  path: Assets/GameDevTV Assets/Models/Dropship_02_Light_Mount.fbx
-  artifactKey: Guid(c8b15472361882840b1507d206e4dbc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/GameDevTV Assets/Models/Dropship_02_Light_Mount.fbx using Guid(c8b15472361882840b1507d206e4dbc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31e1de36a1630f37ca225df9c0728d7b') in 0.025507 seconds 
-Number of asset objects unloaded after import = 16
-========================================================================
-Received Import Request.
-  Time since last request: 48.468577 seconds.
-  path: Assets/GameDevTV Assets/Models/Spaceship/Dropship_03_Thruster.fbx
-  artifactKey: Guid(266abda2514f6d14e94e942dbc17504a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/GameDevTV Assets/Models/Spaceship/Dropship_03_Thruster.fbx using Guid(266abda2514f6d14e94e942dbc17504a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a2472bc07c77d085a3ca7ed0cb2ab37') in 0.028964 seconds 
-Number of asset objects unloaded after import = 10
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/GameDevTV Assets/Materials and Textures/Grey.mat
-  artifactKey: Guid(f6a44c6bd042db64fa491159f0445117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/GameDevTV Assets/Materials and Textures/Grey.mat using Guid(f6a44c6bd042db64fa491159f0445117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3b6ea9fcef0f4dded4923ae67e8127c') in 0.013708 seconds 
-Number of asset objects unloaded after import = 1
-========================================================================
-Received Import Request.
-  Time since last request: 52.538741 seconds.
-  path: Assets/GameDevTV Assets/Materials and Textures/Castle-MetallicSmoothpng.png
-  artifactKey: Guid(14ccd4af4096c524290f20c0e464c27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Number of updated assets reloaded before import = 0
-Start importing Assets/GameDevTV Assets/Materials and Textures/Castle-MetallicSmoothpng.png using Guid(14ccd4af4096c524290f20c0e464c27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bc947a91d11f918cf0f7f14028332bc') in 0.068477 seconds 
-Number of asset objects unloaded after import = 2
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
