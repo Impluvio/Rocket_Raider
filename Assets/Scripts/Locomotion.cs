@@ -11,6 +11,11 @@ public class Locomotion : MonoBehaviour
     [SerializeField] InputAction rotation;
     [SerializeField] float rotationSpeed = 0.5f;
 
+    [SerializeField] AudioClip MainEngine;
+    [SerializeField] ParticleSystem MainThruster;
+    [SerializeField] ParticleSystem LeftSideThruster;
+    [SerializeField] ParticleSystem RightSideThruster;
+
     Rigidbody rb;
     AudioSource audioSource;  
 
@@ -43,16 +48,22 @@ public class Locomotion : MonoBehaviour
     private void ProcessRotation()
     {
         float adjustedRotationSpeed = rotationSpeed * Time.fixedDeltaTime;
+        RightSideThruster.Stop();
+        LeftSideThruster.Stop();
 
         float rotationInput = rotation.ReadValue<float>();
         if (rotationInput < 0)
         {
             ApplyRotation(adjustedRotationSpeed);
+            LeftSideThruster.Play();
         }
-        else if (rotationInput > 0 )
+        else if (rotationInput > 0)
         {
-            ApplyRotation(- adjustedRotationSpeed);
+            RightSideThruster.Play();
+            ApplyRotation(-adjustedRotationSpeed);
         }
+
+        
     }
 
     private void ApplyRotation(float rotationPerFrame)
@@ -68,10 +79,12 @@ public class Locomotion : MonoBehaviour
         {
             // Vector3 newForce = new Vector3(0,10,0);
             rb.AddRelativeForce(Vector3.up * thrustStrength * Time.fixedDeltaTime);
+            MainThruster.Play();
             playAudio();
         }
         else
         {
+            MainThruster.Stop();
             audioSource.Stop();
         }
         
@@ -82,7 +95,7 @@ public class Locomotion : MonoBehaviour
     {
         if (!audioSource.isPlaying)
         {
-            audioSource.Play();
+            audioSource.PlayOneShot(MainEngine);
         }
 
         

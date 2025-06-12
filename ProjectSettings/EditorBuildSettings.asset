@@ -4,5 +4,14 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Moonbase.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
+    path: Assets/Scenes/The Caves.unity
+    guid: a4c90d8239a7e124f94b9476822ba24a
+  - enabled: 1
+    path: Assets/Scenes/The Caves Part II.unity
+    guid: dd0fb99827d00764cafcea8a99f20109
   m_configObjects: {}
