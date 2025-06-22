@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.InputSystem;
 
 public class CollisionHandler : MonoBehaviour
 {
@@ -10,11 +11,16 @@ public class CollisionHandler : MonoBehaviour
     [SerializeField] AudioClip SuccessSFX;
     [SerializeField] AudioClip FailureSFX;
     [SerializeField] ParticleSystem SuccessParticles;
-    [SerializeField] ParticleSystem FailureParticles; 
+    [SerializeField] ParticleSystem FailureParticles;
+
+    [SerializeField] InputAction previousLevel;
+    [SerializeField] InputAction nextLevel;
+
 
     int currentScene;
     AudioSource audioSource;
     bool isControllable = true;
+    bool isCollidable = true;
 
     private void Awake()
     {
@@ -24,7 +30,7 @@ public class CollisionHandler : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (!isControllable) { return; }
+        if (!isControllable || !isCollidable) { return; }
 
         switch (collision.gameObject.tag)
         {
@@ -41,7 +47,7 @@ public class CollisionHandler : MonoBehaviour
 
         }
 
-        
+
     }
     void RunLevelProgression()
     {
@@ -80,5 +86,43 @@ public class CollisionHandler : MonoBehaviour
         SceneManager.LoadScene(currentScene);
     }
 
+    void CycleNextLevel()
+    {
+        int nextScene = currentScene + 1;
 
+        if (nextScene == SceneManager.sceneCountInBuildSettings)
+        {
+            nextScene = 0;
+        }
+
+        SceneManager.LoadScene(nextScene);
+    }
+    void CyclePreviousLevel()
+    {
+        int previousScene = currentScene - 1;
+
+        if (previousScene < 0)
+        {
+            previousScene = SceneManager.sceneCountInBuildSettings - 1;
+        }
+
+        SceneManager.LoadScene(previousScene);
+
+    }
+
+    void Update()
+    {
+        if (Keyboard.current.lKey.isPressed)
+        {
+            Invoke("CyclePreviousLevel", LvlLoadDelay);
+        }
+        else if (Keyboard.current.nKey.isPressed)
+        {
+            Invoke("CycleNextLevel", LvlLoadDelay);
+        }
+        else if (Keyboard.current.cKey.wasPressedThisFrame)
+        {
+            isCollidable = !isCollidable;
+        }
+    }
 }

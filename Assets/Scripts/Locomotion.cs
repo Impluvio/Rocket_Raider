@@ -54,16 +54,26 @@ public class Locomotion : MonoBehaviour
         float rotationInput = rotation.ReadValue<float>();
         if (rotationInput < 0)
         {
-            ApplyRotation(adjustedRotationSpeed);
-            LeftSideThruster.Play();
+            RotateLeft(adjustedRotationSpeed);
         }
         else if (rotationInput > 0)
         {
-            RightSideThruster.Play();
-            ApplyRotation(-adjustedRotationSpeed);
+            RotateRight(adjustedRotationSpeed);
         }
 
-        
+
+    }
+
+    private void RotateRight(float adjustedRotationSpeed)
+    {
+        RightSideThruster.Play();
+        ApplyRotation(-adjustedRotationSpeed);
+    }
+
+    private void RotateLeft(float adjustedRotationSpeed)
+    {
+        ApplyRotation(adjustedRotationSpeed);
+        LeftSideThruster.Play();
     }
 
     private void ApplyRotation(float rotationPerFrame)
@@ -84,11 +94,16 @@ public class Locomotion : MonoBehaviour
         }
         else
         {
-            MainThruster.Stop();
-            audioSource.Stop();
+            StopRotation();
         }
-        
 
+
+    }
+
+    private void StopRotation()
+    {
+        MainThruster.Stop();
+        audioSource.Stop();
     }
 
     private void playAudio()
